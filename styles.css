@@ -1,0 +1,12 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1;
+  }
+
+  .id {
+    margin-top: 100px;
+  }

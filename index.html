@@ -13,7 +13,7 @@
 
   <!-- Navbar for larger screens -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">Your Website</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
@@ -57,36 +57,23 @@
     </div>
   </nav>
 
-  <div class="container" id="about">
-    <h1>About</h1>
-    <p>Place your about content here.</p>
-  </div>
+  
+  <div class="content">
+    <div class="container" id="whoami">
+      <h1>Brandon Last</h1>
+    </div>
 
-  <div class="container" id="experience">
-    <h1>Experience</h1>
-    <p>Place your experience content here.</p>
-  </div>
-
-  <div class="container" id="contact">
-    <h1>Contact</h1>
-    <p>Place your contact information here.</p>
-  </div>
-
-  <div class="container" id="resume">
-    <h1>Resume</h1>
-    <p>Place your resume content here.</p>
+    <div class="container" id="cycle">
+      <p>Web Developer...</p>
+    </div>
   </div>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-6">
           <p>Brandon Last - Web Developer</p>
-          <a href="#">LinkedIn</a> |
-          <a href="#">GitHub</a> |
-          <a href="#">X</a> |
-          <a href="#">Instagram</a>
         </div>
         <div class="col-md-6 text-right">
           <a href="#about">About</a> |
@@ -96,11 +83,16 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-md-6 text-left">
+          <a href="#">LinkedIn</a> |
+          <a href="#">GitHub</a> |
+          <a href="#">X</a> |
+          <a href="#">Instagram</a>
+        </div>
         <div class="col-md-12 text-right">
           <label for="darkmode-toggle">Dark Mode</label>
-          <input type="button" id="darkmode-toggle">
+         <!-- <input type="button" id="darkmode-toggle"> -->
           <p>&copy; 2024 Brandon Last</p>
-        </div>
       </div>
     </div>
   </footer>
