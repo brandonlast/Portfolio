@@ -1,12 +1,113 @@
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .content {
-    flex: 1;
-  }
 
-  nav {
-    margin-bottom: 100px;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #f2f2f2;
+}
+
+.footer-headshot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.ml-3 {
+  margin-left: 3px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.content {
+  flex: 1;
+  margin-left: 75px;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+#headshot {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.typing-text {  
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(12, end), blink-caret 0.75s step-end infinite;
+}
+
+.typing-text {  
+  text-shadow: 0 0 0 2px black; 
+  animation: blink-caret 0.75s step-end infinite;
+}
+.hero {
+  margin-left: auto;
+  margin-right: 300px;
+
+}
+.planet {
+  width: 20em;
+  height: 20em;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 
+    0 0 5em 0 #fed84c80,
+    0 0 20em 4em #e8a55233,
+    0 0 55em 8em #ff4d4d1a;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 200px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    text-shadow: 0 0 0 2px transparent;
+  }
+  50% {
+    text-shadow: 0 0 0 2px black;
+  }
+}
