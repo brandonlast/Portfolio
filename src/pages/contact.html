@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/resume.css">
+  <link rel="stylesheet" href="/css/contact.css">
 </head>
 <body>
 
   <!-- Navbar for larger screens -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="/img/headshot.jpg" alt="Headshot" id="headshot"></a>
+      <a class="navbar-brand" href="../index.html"><img src="/img/headshot.jpg" alt="Headshot" id="headshot"></a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="about.html">About</a>
@@ -35,7 +35,7 @@
 
   <!-- Navbar for mobile screens -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light d-lg-none">
-    <a class="navbar-brand" href="#"><img src="/img/headshot.jpg" alt="Headshot" id="headshot"></a>
+    <a class="navbar-brand" href="../index.html"><img src="/img/headshot.jpg" alt="Headshot" id="headshot"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -60,11 +60,24 @@
 
 
   <div class="container">
-  
-        
-        <a href="/img/Resume.jpg" download>
-            <img src="/img/Resume.jpg" alt="Resume" class="resume-pic">
-          </a>
+  <h2 class="header"> Want to reach out? Contact me here!</h2>
+    <div class="links">
+        <a href="https://www.linkedin.com/in/brandonlast/"><img src="/img/linkedin.png" alt="LinkedIn"  class="icon1"></a><br>
+        <a href="https://www.github.com/brandonlast"><img src="/img/github.png" alt="Github" class="icon2"></a> <br>
+        <a href="https://twitter.com/LastdBL"><img src="/img/twitterx.png" alt="Twitter" class="icon3""></a><br>
+        <a href="https://www.instagram.com/brandonlast/"><img src="/img/instagram.png" alt="Instagram" class="icon4"></a><br>
+    </div>
+
+    <div class="form">
+        <form method="post">
+            <input type="text" placeholder="Name" id="name" autocomplete="off">
+            <input type="email" placeholder="Email" id="email" autocomplete="off">
+            <input type="text" placeholder="Subject" id="subject" autocomplete="off">
+            <textarea id="message" placeholder="Message" cols="30" rows="10"></textarea>
+            <button id="btn">Send</button>
+        </form>
+    </div>
+
   </div>
 
   <!-- Footer -->
@@ -100,7 +113,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <!-- Custom JS -->
-  <!-- <script src="experience.js"></script> -->
+  <script src="contact.js"></script>
 </body>
 </html>
