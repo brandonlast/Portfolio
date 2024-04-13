@@ -63,28 +63,32 @@ textarea {
 
 .label1 {
     position: absolute;
-    font-size: 15px;
+    font-size: 20px;
     top: 250px;
     left: 400px;
+    font-weight: 600;
 }
 
 .label2 {
     position: absolute;
-    font-size: 15px;
+    font-size: 20px;
     top: 375px;
     left: 400px;
+    font-weight: 600;
 }
 
 .label3 {
     position: absolute;
-    font-size: 15px;
-    top: 500px;
+    font-size: 20px;
+    top: 520px;
     left: 400px;
+    font-weight: 600;
 }
 
 .label4 {
     position: absolute;
-    font-size: 15px;
-    top: 650px;
+    font-size: 20px;
+    top: 660px;
     left: 400px;
+    font-weight: 600;
 }
