@@ -5,8 +5,8 @@ btn.addEventListener('click',function(e){
     var email = document.getElementById('email').value;
     var subject = document.getElementById('subject').value;
     var message = document.getElementById('message').value;
-    var body = 'name: ' +name + '<br/> email: ' + email + '<br/> subject' +
-    subject + '<br/> message' +message; 
+    var body = 'name: ' +name + '<br/> email: ' + email + '<br/> subject: ' +
+    subject + '<br/> message: ' + message; 
 
 
     Email.send({
