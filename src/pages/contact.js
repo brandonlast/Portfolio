@@ -12,7 +12,7 @@ btn.addEventListener('click',function(e){
     Email.send({
         SecureToken : "1ab0a686-025a-4a92-9ab9-746d875bcd20",
         To : 'brandonlast@hotmail.com',
-        From : email,
+        From : 'slayingthembo3@gmail.com',
         Subject : subject,
         Body : body
     }).then(
