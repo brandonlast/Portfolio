@@ -60,3 +60,31 @@ textarea {
     left: 278px;
     top: 600px;
 }
+
+.label1 {
+    position: absolute;
+    font-size: 15px;
+    top: 200px;
+    left: 330px;
+}
+
+.label2 {
+    position: absolute;
+    font-size: 15px;
+    top: 325px;
+    left: 330px;
+}
+
+.label3 {
+    position: absolute;
+    font-size: 15px;
+    top: 450px;
+    left: 330px;
+}
+
+.label4 {
+    position: absolute;
+    font-size: 15px;
+    top: 600px;
+    left: 330px;
+}
