@@ -4,6 +4,96 @@
         color: #eee;
     }
 
+    .pill {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        border-radius: 16px;
+      }
+      
+      #pill1 {
+          width: 82px;
+          background: rgb(100, 187, 187);
+          position: absolute;
+          z-index: -1;
+          left: 396px;
+          top: 221px;
+      }
+      .skillset > p {
+          margin-right: 20px;
+          color: white;
+      }
+      
+      #pill2 {
+          width: 132px;
+          background: rgb(214, 151, 140);
+          position: absolute;
+          z-index: -1;
+          left: 484px;
+          top: 221px;
+      }
+      #pill3 {
+          width: 110px;
+          background: rgb(214, 151, 140);
+          position: absolute;
+          z-index: -1;
+          left: 396px;
+          top: 260px;
+      }
+      #pill4 {
+          width: 60px;
+          background: rgb(100, 187, 187);
+          position: absolute;
+          z-index: -1;
+          left: 512px;
+          top: 260px;
+      }
+      #pill5 {
+          width: 20px;
+          background: rgb(100, 187, 187);
+          position: absolute;
+          z-index: -1;
+          left: 574px;
+          top: 260px;
+      }
+      #pill6 {
+          width: 45px;
+          background: rgb(100, 187, 187);
+          position: absolute;
+          z-index: -1;
+          left: 396px;
+          top: 300px;
+      }
+      #pill7 {
+          width: 170px;
+          background: rgb(214, 151, 140);
+          position: absolute;
+          z-index: -1;
+          left: 446px;
+          top: 300px;
+      }
+      #pill8 {
+          width: 166px;
+          background: rgb(214, 151, 140);
+          position: absolute;
+          z-index: -1;
+          left: 396px;
+          top: 340px;
+      }
+      #pill9 {
+          width: 43px;
+          background: rgb(214, 151, 140);
+          position: absolute;
+          z-index: -1;
+          left: 568px;
+          top: 340px;
+      }
+
 
 }
 
