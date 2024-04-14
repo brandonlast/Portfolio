@@ -1,3 +1,11 @@
+.dark-theme {
+    body{
+        color:#eee;
+    }
+}
+
+
+
 .container  {
     padding-bottom: 30px;
     align-items: flex-start;
