@@ -1,4 +1,21 @@
 .dark-theme {
+    body {
+        background-color: #222;
+       color: #ddd;
+       }
+       
+       .navbar, .footer, .navlist {
+        background-color: #333;
+        color: #eee;
+       }
+       
+       .navbar-brand > .navbar-nav > .nav-item > .nav-link {
+           color: #eee;
+       }
+       nav {
+        color: #ddd;
+       }
+    
     .container > .header, .links {
         color:#eee;
     }
@@ -6,29 +23,10 @@
         color: #eee;
     }
 
-    .navbar {
-        background-color: #333;
-    }
     .fullpage {
         background-color: #222;
-      }
-
-    body {
-     background-color: #222;
-    color: #ddd;
     }
     
-    .navbar, .footer, .navlist {
-     background-color: #333;
-     color: #eee;
-    }
-    
-    .navbar-brand > .navbar-nav > .nav-item > .nav-link {
-        color: #eee;
-    }
-    nav {
-     color: #ddd;
-    }
 }
 
 .fullpage {
