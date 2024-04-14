@@ -2,8 +2,12 @@
     .container > .header, .links {
         color:#eee;
     }
-    footer {
+    .row > .col > a {
         color: #eee;
+    }
+
+    .navbar {
+        background-color: #333;
     }
 }
 
