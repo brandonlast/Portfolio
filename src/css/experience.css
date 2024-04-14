@@ -97,6 +97,9 @@
       .row > .col > a {
         color: #eee;
     }
+    .fullpage {
+        background: #222;
+    }
 
 }
 
