@@ -20,20 +20,21 @@
           width: 82px;
           background: rgb(100, 187, 187);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 396px;
           top: 221px;
       }
       .skillset > p {
           margin-right: 20px;
           color: white;
+          z-index: 1;
       }
       
       #pill2 {
           width: 132px;
           background: rgb(214, 151, 140);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 484px;
           top: 221px;
       }
@@ -41,7 +42,7 @@
           width: 110px;
           background: rgb(214, 151, 140);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 396px;
           top: 260px;
       }
@@ -49,7 +50,7 @@
           width: 60px;
           background: rgb(100, 187, 187);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 512px;
           top: 260px;
       }
@@ -57,7 +58,7 @@
           width: 20px;
           background: rgb(100, 187, 187);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 574px;
           top: 260px;
       }
@@ -65,7 +66,7 @@
           width: 45px;
           background: rgb(100, 187, 187);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 396px;
           top: 300px;
       }
@@ -73,7 +74,7 @@
           width: 170px;
           background: rgb(214, 151, 140);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 446px;
           top: 300px;
       }
@@ -81,7 +82,7 @@
           width: 166px;
           background: rgb(214, 151, 140);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 396px;
           top: 340px;
       }
@@ -89,7 +90,7 @@
           width: 43px;
           background: rgb(214, 151, 140);
           position: absolute;
-          z-index: -1;
+          z-index: 0;
           left: 568px;
           top: 340px;
       }
