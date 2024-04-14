@@ -106,7 +106,7 @@
     flex-direction: column;
     margin: 0;
     overflow: hidden;
-    background-color: #c2af8f;
+    background-image: linear-gradient(to bottom, #757575, #faf6f6);
   }
 .container > .experience > p {
     margin: 0px;
