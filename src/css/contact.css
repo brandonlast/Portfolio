@@ -2,6 +2,9 @@
     .container > .header, .links {
         color:#eee;
     }
+    footer {
+        color: #eee;
+    }
 }
 
 
