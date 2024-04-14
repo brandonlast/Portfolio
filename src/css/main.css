@@ -11,7 +11,7 @@
     color: #eee;
   }
 
-  .nav-link, .container-fluid {
+  .nav-link {
     color: #eee;
   }
   .content {
@@ -24,6 +24,9 @@
   }
   .fullpage {
     background-color: #222;
+  }
+  .nav-item {
+    color: #ddd;
   }
 }
 
