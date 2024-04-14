@@ -29,7 +29,11 @@
     color: #ddd;
   }
 }
-
+.dark-theme-toggle {
+  position: absolute;
+  left: 1800;
+  top: 1000;
+}
 .fullpage {
   min-height: 100vh;
   display: flex;
