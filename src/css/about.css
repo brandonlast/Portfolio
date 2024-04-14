@@ -1,4 +1,9 @@
+.dark-theme {
+    .container > .info {
+        color: #eee;
+    }
 
+}
 .hero-image {
     max-height: 600px;
     min-width: 900px;
