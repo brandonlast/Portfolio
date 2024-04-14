@@ -9,9 +9,24 @@
     .navbar {
         background-color: #333;
     }
+    .fullpage {
+        background-color: #222;
+      }
 }
 
-
+.fullpage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+  }
+  .navbar-light > .navbar-brand > .navbar-nav > .nav-item > .nav-link {
+    color: rgba(0, 0, 0, .8);
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .8);
+  }
 
 .container  {
     padding-bottom: 30px;
