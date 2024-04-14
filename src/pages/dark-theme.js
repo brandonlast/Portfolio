@@ -6,6 +6,11 @@ function toggleTheme() {
   const isDarkTheme = body.classList.contains('dark-theme');
   body.classList.toggle('dark-theme');
 
+
+  console.log("Dark Theme Toggle Button Pressed!");
+
+  console.log("Current Theme:", isDarkTheme ? "Dark" : "Light");
+
   const navbar = document.querySelector('.navbar');
   navbar.classList.toggle('navbar-dark', isDarkTheme);
 
