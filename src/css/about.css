@@ -2,7 +2,9 @@
     .container > .info {
         color: #eee;
     }
-
+    .row > .col > a {
+        color: #eee;
+    }
 }
 .hero-image {
     max-height: 600px;

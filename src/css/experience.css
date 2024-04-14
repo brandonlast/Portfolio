@@ -94,7 +94,9 @@
           left: 568px;
           top: 340px;
       }
-
+      .row > .col > a {
+        color: #eee;
+    }
 
 }
 

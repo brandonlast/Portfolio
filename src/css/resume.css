@@ -1,3 +1,8 @@
+.dark-theme {
+    .row > .col > a {
+        color: #eee;
+    }
+}
 .resume-pic {
     max-width: 500px;
     margin-left: 325px;
