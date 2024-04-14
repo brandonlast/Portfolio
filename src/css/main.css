@@ -6,13 +6,21 @@
     color: #ddd;
   }
 
-  .navbar, .footer, .navlist, #navbarContent {
+  .navbar, .footer, .navlist {
     background-color: #333;
     color: #eee;
   }
 
   .nav-link {
     color: #eee;
+  }
+  .content {
+    background-color: #333;
+    color: #ddd;
+  }
+
+  #whoami h1 {
+    color: #ddd;
   }
 }
 
