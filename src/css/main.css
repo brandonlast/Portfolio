@@ -6,7 +6,7 @@
     color: #ddd;
   }
 
-  .navbar, .footer, .navlist {
+  .navbar, .footer, .navlist, #navbarContent {
     background-color: #333;
     color: #eee;
   }
