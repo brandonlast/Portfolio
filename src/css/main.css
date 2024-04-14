@@ -8,6 +8,7 @@
 
   .navbar, .footer {
     background-color: #333;
+    color: #eee;
   }
 
   .nav-link {
