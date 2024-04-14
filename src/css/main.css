@@ -11,7 +11,7 @@
     color: #eee;
   }
 
-  .nav-item > .nav-link {
+  .navbar-brand > .navbar-nav > .nav-item > .nav-link {
     color: #eee;
   }
   .content {
