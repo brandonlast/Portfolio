@@ -28,6 +28,23 @@ setTimeout(function(){
 }, 3000);
 
 
+const toggleButton = document.getElementById('dark-theme-toggle');
+const body = document.body;
 
+function toggleTheme() {
+  const isDarkTheme = body.classList.contains('dark-theme');
+  body.classList.toggle('dark-theme');
+
+  // Store user preference in localStorage (optional)
+  localStorage.setItem('theme', isDarkTheme ? 'light' : 'dark');
+}
+
+toggleButton.addEventListener('click', toggleTheme);
+
+// Check for user preference on page load (optional)
+const themePreference = localStorage.getItem('theme');
+if (themePreference === 'dark') {
+  body.classList.add('dark-theme');
+}
 
 
