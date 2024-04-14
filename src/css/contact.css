@@ -1,5 +1,5 @@
 .dark-theme {
-    body{
+    .container > .header, .links {
         color:#eee;
     }
 }
