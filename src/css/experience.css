@@ -100,7 +100,14 @@
 
 }
 
-
+.fullpage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    background-color: #a8a6a6;
+  }
 .container > .experience > p {
     margin: 0px;
     padding: 0px;

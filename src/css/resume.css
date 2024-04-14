@@ -7,3 +7,11 @@
     max-width: 500px;
     margin-left: 325px;
 }
+.fullpage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    background-color: #a8a6a6;
+  }
