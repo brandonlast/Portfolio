@@ -1,3 +1,10 @@
+.dark-theme {
+  .fullpage {
+    background: #333;
+  }
+}
+
+
 .fullpage {
   min-height: 100vh;
   display: flex;
